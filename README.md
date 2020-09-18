@@ -7,17 +7,17 @@
 For styling, I have used saas and mdi Icons
 
 ### Folder structure
-src -> assests -> sounds: Audio clips
-src -> img: Images
-src -> components-> quiz: Every component JS files
-src -> styles -> base: Style files that are common for multiple components
-src -> styles -> componentstyles: Style files for each component
-src -> styles -> styles.scss: Main styling file including all the refs to the other style files
+src -> assests -> sounds: Audio clips <br />
+src -> img: Images <br />
+src -> components-> quiz: Every component JS files <br />
+src -> styles -> base: Style files that are common for multiple components <br />
+src -> styles -> componentstyles: Style files for each component <br />
+src -> styles -> styles.scss: Main styling file including all the refs to the other style files <br />
 
-question.json : list of questions and answers
+question.json : list of questions and answers <br />
 
-###License for audio clips:
-The sound effect is permitted for non-commercial use under license ìAttribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+###License for audio clips: <br />
+The sound effect is permitted for non-commercial use under license ìAttribution-NonCommercial 4.0 International (CC BY-NC 4.0) <br />
 
 http://www.orangefreesounds.com/
 
