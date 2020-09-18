@@ -14,7 +14,19 @@ src -> styles -> base: Style files that are common for multiple components <br /
 src -> styles -> componentstyles: Style files for each component <br />
 src -> styles -> styles.scss: Main styling file including all the refs to the other style files <br />
 
+### APP UIs 
+
+Home Page <br/>
+Click on the play button to go to the instruction page <br/>
 ![Screen Shot 2020-09-18 at 11 09 50 pm](https://user-images.githubusercontent.com/38785666/93601287-528ce500-fa04-11ea-884e-2338f2f75e74.png)
+
+Instruction Page <br/>
+Click on the start button to start the quiz
+![instruction](https://user-images.githubusercontent.com/38785666/93601512-aac3e700-fa04-11ea-927a-60e4cb8f03f6.png)
+
+Quiz page <br/>
+![quiz1](https://user-images.githubusercontent.com/38785666/93601362-718b7700-fa04-11ea-80e2-423f5e2b0dc9.png)
+
 
 
 question.json : list of questions and answers <br />
