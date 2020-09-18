@@ -14,7 +14,7 @@ src -> styles -> base: Style files that are common for multiple components <br /
 src -> styles -> componentstyles: Style files for each component <br />
 src -> styles -> styles.scss: Main styling file including all the refs to the other style files <br />
 
-![quiz.png](https://github.com/pwarnaku/general-quiz-app/src/img/quiz2.png)
+![Screen Shot 2020-09-18 at 11 09 50 pm](https://user-images.githubusercontent.com/38785666/93601287-528ce500-fa04-11ea-884e-2338f2f75e74.png)
 
 
 question.json : list of questions and answers <br />
