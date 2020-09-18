@@ -1,7 +1,7 @@
 #### Project Type: WebApp
 #### Language: React.JS,HTML,SAAS 
 #### IDE: XCode Version 10.1 (10B61)
-#### GitHub Link: git@github.com:pwarnaku/general-quiz-app
+#### Link: https://master.d18hx49t19s1i0.amplifyapp.com
 ### Cloud Service for hosting : AWS Amplify
 
 For styling, I have used saas and mdi Icons
@@ -14,7 +14,7 @@ src -> styles -> base: Style files that are common for multiple components <br /
 src -> styles -> componentstyles: Style files for each component <br />
 src -> styles -> styles.scss: Main styling file including all the refs to the other style files <br />
 
-![alt text](https://github.com/pwarnaku/general-quiz-app/src/img/quiz2.png)
+![quiz.png](https://github.com/pwarnaku/general-quiz-app/src/img/quiz2.png)
 
 
 question.json : list of questions and answers <br />
