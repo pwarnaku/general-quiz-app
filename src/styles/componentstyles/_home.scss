@@ -1,0 +1,97 @@
+
+
+.home{
+    background-color: rgb(209, 209, 209);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+//styles for the section tag including the transperent background
+section{
+    background-color:rgba(0, 0, 0, 0.5);
+    margin-top: 15%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 30px;
+    height: 50%;
+    width: 50%;
+}
+//styles for the bulp icon
+.bulb{
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: white;
+  
+    
+}
+//styles for h1 tag
+.main-h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.play-btn-container{
+    width: 100%;
+}
+//a selects every element in play-btn
+a.play-btn{
+background-color: rgba(39, 158, 84, 0.8);
+color: white;
+cursor: pointer;
+padding: $normal;
+text-decoration: none;
+border-radius: 30px;
+display:block;
+text-align: center;
+margin-top: 2rem;
+transition: 0.3s linear all;
+} 
+
+//style for hovering on play button
+a.play-btn:hover{
+    background-color:darken(green, 10%); 
+}
+
+.auth-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-top: $lg;
+}
+
+//styles for login button
+#login-btn{
+    background-color:  rgba(15, 56, 95, 0.8);
+    transition: 0.3s linear all;
+}
+
+
+//styles for register button
+#register-btn{
+    background-color:rgba(140, 69, 97, 0.8);
+}
+//select the both login an register buttons under the aut container to style
+.auth-container .auth-btns{
+    color:white;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: $normal 0;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    width: 45%;
+}
+
+//making responsive
+// These styles will be added when the screen hits 768px and gets smaller,
+@media(max-width:768px){
+    #home section {
+        padding:0 $normal;
+        width: 100%;
+        height: 100%;
+    }
+}

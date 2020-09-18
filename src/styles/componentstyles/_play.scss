@@ -1,0 +1,106 @@
+
+//styles for play.js
+
+//styles for 'quections' classname tag in quiz page
+.quections{
+    background-color:white;
+    border-left: 5px solid rgb(68, 110, 237);
+    width: 80%;
+    margin: $lg auto 0 auto;
+    padding: $sm $md;
+}
+
+//styles for 'lifeline-container' classname  in quiz page
+.lifeline-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+//styles for 50-50 icon
+.lifeline{
+    color: rgb(43, 25, 201);
+}
+//styles for hint icon
+.hints{
+    color: rgb(0, 100, 30);
+}
+//styles for clock icon
+.clock{
+    color: rgb(255, 7, 7);
+}
+//styles for timer
+.timer-container{
+    margin-top: 1rem;
+}
+//styles for h3 tag in quiz page
+h3{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: lg;
+    line-height: 1.5;
+    text-align: center;
+}
+//styles for h2 tag in quiz page
+h2{
+    text-align: center;
+}
+//styles for 'options-container' classname  in quiz page
+.options-container{
+    display: inline-block;
+    width: 50%;
+}
+//styles for 'option' classname  in quiz page
+.option{
+    background-color: rgba(65, 127, 148, 0.86);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin: $md auto;
+    padding: 0.7rem;
+    transition: 0.3% linear all;
+    width: 90%;
+  
+}
+//handling hover on options
+.option.hover{
+    background-color: darken(rgba(65, 86, 148, 0.86), 20%);
+}
+//styles for 'button-container' classname 
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto $sm auto;
+    padding: $md;
+    width: 80%;
+
+}
+
+//styles for each buttnons
+.button-container button{
+    border: none;
+    color:white;
+    cursor: pointer;
+    margin-right: $md;
+    padding: $xs $sm;
+
+}
+//styels for first putton (previous
+.button-container button:first-child{
+    background-color: darken(rgba(65, 127, 148, 0.86),10%);
+    transition: 0.2% linear all;
+  
+}
+//styles for second button (next)
+.button-container button:nth-child(2){
+    background-color: darken(rgba(65, 127, 148, 0.86),10%);
+    transition: 0.2% linear all;
+  
+}
+//styles for 3rd button (quite)
+.button-container button:nth-child(3){
+    background-color: darken(rgba(148, 65, 86, 0.86),10%);
+    transition: 0.2% linear all;
+  
+}

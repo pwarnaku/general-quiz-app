@@ -1,0 +1,27 @@
+// This saas file is to keep general styles for each component.
+//select allcomponents within the app
+*{
+    padding:0;
+    margin:0;
+}
+
+//styles for wrong answer (pop-up) messsages
+.toast-valid{
+    background-color: rgb(121, 228, 139) !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+//styles for correct answer (pop-up) messsages
+.toast-invalid{
+    background-color: rgb(250, 53, 53) !important;
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+//styles for dsabled buttons
+.disable{
+    background-color: #ccc !important; 
+    box-shadow: none !important;
+    pointer-events: none !important;
+    opacity: 0.9 !important;
+}

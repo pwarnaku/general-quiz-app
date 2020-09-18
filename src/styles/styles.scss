@@ -1,0 +1,9 @@
+
+//importing all the style files into this beause index.js file only reads this file
+@import "~/node_modules/material-design-icons/iconfont/material-icons.css";
+@import './base/base';
+@import './base/settings';
+@import './componentstyles/home';
+@import './componentstyles/play';
+@import './componentstyles/summary';
+@import './componentstyles/quizInstruction';
