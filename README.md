@@ -1,3 +1,30 @@
+#### Project Type: WebApp
+#### Language: React.JS,HTML,SAAS 
+#### IDE: XCode Version 10.1 (10B61)
+#### GitHub Link: git@github.com:pwarnaku/general-quiz-app
+### Cloud Service for hosting : AWS Amplify
+
+For styling, I have used saas and mdi Icons
+
+### Folder structure
+src -> assests -> sounds: Audio clips
+src -> img: Images
+src -> components-> quiz: Every component JS files
+src -> styles -> base: Style files that are common for multiple components
+src -> styles -> componentstyles: Style files for each component
+src -> styles -> styles.scss: Main styling file including all the refs to the other style files
+
+question.json : list of questions and answers
+
+###License for audio clips:
+The sound effect is permitted for non-commercial use under license ìAttribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+http://www.orangefreesounds.com/
+
+
+#### Please follow the instruction to run the project.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
