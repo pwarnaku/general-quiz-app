@@ -3,6 +3,9 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 //import imgs
 import img from '../../img/quiz.png';
+import quiz1 from '../../img/quiz1.png';
+import quiz2 from '../../img/quiz2.png';
+
 
 //import font awesome icons 
 import{ FaExclamationCircle } from 'react-icons/fa';
@@ -38,14 +41,16 @@ export default function QuizInstructions() {
                     <h2>Good Luck!</h2>
              </ul>
              <br/>
-            <img classname="imginst" src={img} alt="Logo" />;
+             <img classname="imginst" src={quiz1} alt="Logo" />;
+             <img classname="imginst" src={quiz2} alt="Logo" />;
+            
             </div>
             
             {/*This div is for the footer of the page including 2 buttons to 
             go back to the main quiz page and other button is to start the game */}
-            <div className="auth-container">
-                <span className="left" style={{float: 'left'}}><Link to="/" className="auth-btns"id="login-btn">Take me back</Link></span>
-                <span className="right" style={{float: 'right'}}><Link to="/play/quiz" className="auth-btns"id="register-btn">Start the quiz!</Link></span>
+            <div className="btns-container">
+                <span className="left" style={{float: 'left'}}><Link to="/" className="btns"id="h-btn">Take me back</Link></span>
+                <span className="right" style={{float: 'right'}}><Link to="/play/quiz" className="btns"id="r-btn">Start the quiz!</Link></span>
             </div>
         </Fragment>
     )

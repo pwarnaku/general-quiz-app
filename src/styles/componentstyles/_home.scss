@@ -1,7 +1,7 @@
 
 
 .home{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -23,7 +23,7 @@ section{
 .bulb{
     font-size: 3rem;
     margin-top: 2rem;
-    color: white;
+    color: rgb(234, 253, 125);
   
     
 }
@@ -39,7 +39,7 @@ section{
 }
 //a selects every element in play-btn
 a.play-btn{
-background-color: rgba(39, 158, 84, 0.8);
+background-color: rgba(104, 224, 150, 0.8);
 color: white;
 cursor: pointer;
 padding: $normal;
@@ -65,14 +65,14 @@ a.play-btn:hover{
 
 //styles for login button
 #login-btn{
-    background-color:  rgba(15, 56, 95, 0.8);
+    background-color:  rgba(115, 173, 226, 0.8);
     transition: 0.3s linear all;
 }
 
 
 //styles for register button
 #register-btn{
-    background-color:rgba(140, 69, 97, 0.8);
+    background-color:rgba(247, 147, 187, 0.8);
 }
 //select the both login an register buttons under the aut container to style
 .auth-container .auth-btns{

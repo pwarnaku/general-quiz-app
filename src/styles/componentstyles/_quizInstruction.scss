@@ -32,6 +32,36 @@ body{
   
     
 }
+.btns-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 1rem;
+}
+
+//styles for login button
+#h-btn{
+    background-color:  rgba(15, 56, 95, 0.8);
+    transition: 0.3s linear all;
+}
+
+
+//styles for register button
+#r-btn{
+    background-color:rgba(140, 69, 97, 0.8);
+}
+//select the both login an register buttons under the aut container to style
+.btns-container .btns{
+    color:white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: $normal 0;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+}
+
 .imginst{
     align-items: center;
 }
