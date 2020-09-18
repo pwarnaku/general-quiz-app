@@ -232,7 +232,7 @@ class Play extends Component {
 
    //When the user hits a wrong answer, a pop-up message will be appeared.
    wrongAnswer = () =>{
-    navigator.vibrate(1000);   
+    
     M.toast({
         html : 'Wrong Answer!!',
         classes: 'toast-invalid',
