@@ -17,10 +17,10 @@ class QuizSummary extends Component {
             wrongAnswers:0,
             usedHints:0,
             usedFiftyFifty:0
-
         };
     }
     //seting the sate from play.js
+    //this method is called when the QuizSummary comopent is created
     componentDidMount()
     {
         //pulling out the state from the location objecr just to reduce the code!
@@ -37,6 +37,7 @@ class QuizSummary extends Component {
             usedFiftyFifty:state.usedFiftyFifty
         });
     }
+    
     render() {
 
         //destructoring the state usig location object
@@ -63,59 +64,54 @@ class QuizSummary extends Component {
         if(state!== undefined){
            stats=(
                <Fragment>
+                   {/**Aligining the icon to the center as a inline style */}
                   <div style={{textAlign:"center"}}>
-                 <FaCheck className="sumicon"></FaCheck>
-                </div>
+                     <FaCheck className="sumicon"></FaCheck>
+                  </div>
 
                <h1 className="sumr-h1"> Quiz has ended.</h1>
-
+               
                <div className ="conatiner">
+                    <h4>{remark}</h4>
+                    <h2>Your Score:</h2>
 
-            
-           <h4>{remark}</h4>
-
-          
-           <h2>Your Score:46%</h2>
-           <div classname="list">
-           <span className="stat left">Total number of questions:</span>
-           <span className="right">15</span>
-           <br/>
-           <span className="stat left">Total number of answered questions:</span>
-           <span className="right">{this.state.numberOfAnsweredQuestions-1}</span>
-           <br/>
-           <span className="sp">Total number of correct answers:</span>
-           <span className="right">{this.state.correctAnswers}</span>
-           <br/>
-           <span className="stat left">Total number of wrong answers:</span>
-           <span className="right">{this.state.wrongAnswers}</span>
-           </div>
-         <div>
-               <ul>
-                   <li>
-                       <Link className="left"  style={{float: 'left'}} to="/">Back to Home</Link>
-                   </li>
-                   <li>
-                       <Link className="right" style={{float: 'right'}}to="/play/quiz">Play Again</Link>
-                   </li>
-               </ul>
-           </div>
+                    {/**List of elements to display bases on the user's performance */}
+                    <div classname="list">
+                    <span className="stat left">Total number of questions:</span>
+                    <span className="right">15</span>
+                    <br/>
+                    <span className="stat left">Total number of answered questions:</span>
+                    <span className="right">{this.state.numberOfAnsweredQuestions-1}</span>
+                    <br/>
+                    <span className="sp">Total number of correct answers:</span>
+                    <span className="right">{this.state.correctAnswers}</span>
+                    <br/>
+                    <span className="stat left">Total number of wrong answers:</span>
+                    <span className="right">{this.state.wrongAnswers}</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><Link className="left"  style={{float: 'left'}} to="/">Back to Home</Link></li>
+                            <li><Link className="right" style={{float: 'right'}}to="/play/quiz">Play Again</Link></li>
+                        </ul>
+                </div>
 
                </div>
                </Fragment>
                
            )
 
-        }else{
+        }
+        
+        else{
+            {/**If user has not complete any quiz yet or user try to acces directly by giving the url to the summary page
+            A message (No stats available will be dispalyed*/}
            stats =(
                <section>
                <h1 className="no-stats"> No Stats Available</h1>
                <ul>
-                   <li>
-                       <Link to="/">Back to Home</Link>
-                   </li>
-                   <li>
-                       <Link to="/play/quiz">Play Again</Link>
-                   </li>
+                   <li><Link to="/">Back to Home</Link></li>
+                   <li><Link to="/play/quiz">Play Again</Link></li>
                </ul>
                </section>
            )
@@ -127,7 +123,8 @@ class QuizSummary extends Component {
             //setting the title of the page
             <Fragment>
                 <Helmet><title>Summary - quiz app</title></Helmet>
-                {stats}
+                {/**returning stats */}
+                {stats} 
              </Fragment>
             
         

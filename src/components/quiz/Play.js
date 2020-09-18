@@ -52,7 +52,8 @@ class Play extends Component {
    }
     //This method calls whenever this class component has being called
    componentDidMount(){
-       //destructoring the state
+       
+       //destructoring the state elements
        const { questions, curentQuestion,nextQuestion,previousQuestion } = this.state;
 
        this.displayQuestions(questions,curentQuestion, nextQuestion, previousQuestion);
@@ -67,6 +68,7 @@ class Play extends Component {
    //This function will handle the question.json fle to render the questions with 4 options
    // Passing properities (questions,curentQuestion,nextQuestion,previousQuestion)
    displayQuestions = (
+
        questions = this.state.questions, 
        curentQuestion,
        nextQuestion,
@@ -107,6 +109,7 @@ class Play extends Component {
    //This function handles and give different sounds for wrong and right ansers by
    //assiging simple audio clips
    handleOption=(e)=>{
+
    if(e.target.innerHTML.toLowerCase() === this.state.answer.toLowerCase()){
     setTimeout(() => {
         document.getElementById('correct-sound').play();   
@@ -142,7 +145,7 @@ class Play extends Component {
     };
 
     //This function will take user to the previous quesstion
-   handlePrevButton =() => {
+    handlePrevButton =() => {
     this.playButtonSound();
 
       //check if there are no quections before(Start of the game)
@@ -228,10 +231,10 @@ class Play extends Component {
 
        
     });
-   }
+    }
 
-   //When the user hits a wrong answer, a pop-up message will be appeared.
-   wrongAnswer = () =>{
+    //When the user hits a wrong answer, a pop-up message will be appeared.
+    wrongAnswer = () =>{
     
     M.toast({
         html : 'Wrong Answer!!',
@@ -260,8 +263,8 @@ class Play extends Component {
        });
    }
 
-   //This will handle the 4 options for each question
-   showOptions = () =>{
+    //This will handle the 4 options for each question
+    showOptions = () =>{
     const options = Array.from(document.querySelectorAll('.option'));
     options.forEach(option => {
         //by default evey option is visible
@@ -275,8 +278,8 @@ class Play extends Component {
 
    } 
 
-   //This is tohandle hinst (bulp icon right side of the quiz)
-   handleHints =() => {
+    //This is tohandle hinst (bulp icon right side of the quiz)
+    handleHints =() => {
        //check if there are reaming hints
        if(this.state.hints>0){
         const options = Array.from(document.querySelectorAll('.option'));

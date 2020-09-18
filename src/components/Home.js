@@ -7,8 +7,6 @@ import { Link } from 'react-router-dom';
 import { FaMedapps } from 'react-icons/fa';
 
 
-
-
 /*
 This functional component is the main page of the quiz app
 Things I used,
@@ -40,7 +38,8 @@ const Home = () => (
                {/*container of login and register buttons */}
                <div className="auth-container">
 
-                    {/*These links allow users to  go to the Login and Register pages */}
+                    {/*These links allow users to  go to the Login and Register pages 
+                    Not implemented just added these buttons :) */}
                     <Link to="/login" className="auth-btns" id="login-btn">Login</Link>
                     <Link to="/register" className="auth-btns" id="register-btn">Register</Link>
 
