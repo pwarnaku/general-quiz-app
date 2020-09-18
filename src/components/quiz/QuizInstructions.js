@@ -38,7 +38,7 @@ export default function QuizInstructions() {
                     <h2>Good Luck!</h2>
              </ul>
              <br/>
-            <img src={img} alt="Logo" />;
+            <img classname="imginst" src={img} alt="Logo" />;
             </div>
             
             {/*This div is for the footer of the page including 2 buttons to 
