@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/general-quiz-app/static/css/main.c29e1bca.chunk.css",
+    "main.js": "/general-quiz-app/static/js/main.9e15288b.chunk.js",
+    "main.js.map": "/general-quiz-app/static/js/main.9e15288b.chunk.js.map",
+    "runtime-main.js": "/general-quiz-app/static/js/runtime-main.25a77800.js",
+    "runtime-main.js.map": "/general-quiz-app/static/js/runtime-main.25a77800.js.map",
+    "static/js/2.abf71f73.chunk.js": "/general-quiz-app/static/js/2.abf71f73.chunk.js",
+    "static/js/2.abf71f73.chunk.js.map": "/general-quiz-app/static/js/2.abf71f73.chunk.js.map",
+    "index.html": "/general-quiz-app/index.html",
+    "precache-manifest.62999a3b14c69ce7343d31044a3bb7ea.js": "/general-quiz-app/precache-manifest.62999a3b14c69ce7343d31044a3bb7ea.js",
+    "service-worker.js": "/general-quiz-app/service-worker.js",
+    "static/css/main.c29e1bca.chunk.css.map": "/general-quiz-app/static/css/main.c29e1bca.chunk.css.map",
+    "static/js/2.abf71f73.chunk.js.LICENSE.txt": "/general-quiz-app/static/js/2.abf71f73.chunk.js.LICENSE.txt",
+    "static/media/Clicking.mp3": "/general-quiz-app/static/media/Clicking.a1cfcb1e.mp3",
+    "static/media/Correct.mp3": "/general-quiz-app/static/media/Correct.02882ce2.mp3",
+    "static/media/Error.mp3": "/general-quiz-app/static/media/Error.6721d280.mp3",
+    "static/media/quiz.png": "/general-quiz-app/static/media/quiz.f6c13b4b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25a77800.js",
+    "static/js/2.abf71f73.chunk.js",
+    "static/css/main.c29e1bca.chunk.css",
+    "static/js/main.9e15288b.chunk.js"
+  ]
+}
